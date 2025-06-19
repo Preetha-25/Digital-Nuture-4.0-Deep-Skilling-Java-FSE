@@ -1,3 +1,5 @@
+package Code;
+
 public class Main 
 {
     static class Logger {
