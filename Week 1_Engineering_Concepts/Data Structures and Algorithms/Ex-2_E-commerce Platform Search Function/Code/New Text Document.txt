@@ -1,0 +1,16 @@
+Time Complexity Comparison:
+
+Linear Search:
+    Best Case: O(1) – The target item is found at the beginning of the array.
+    Average Case: O(n) – On average, the item is somewhere in the middle.
+    Worst Case: O(n) – The item is at the end or not present at all.
+
+Binary Search:
+    Best Case: O(1) – The item is exactly in the middle.
+    Average Case: O(log n) – The list is repeatedly halved until the item is found.
+    Worst Case: O(log n) – Even if the item is not present, the algorithm still runs in logarithmic time.
+
+Suitability for E-commerce Platform:
+    *In an e-commerce platform, performance and speed are critical due to the high volume of products and frequent user searches.
+    *If the product list is not sorted and is small, a Linear Search may be acceptable because it requires no pre-processing.
+However, for large product catalogs where quick response times are important, Binary Search is far more efficient due to its logarithmic performance.

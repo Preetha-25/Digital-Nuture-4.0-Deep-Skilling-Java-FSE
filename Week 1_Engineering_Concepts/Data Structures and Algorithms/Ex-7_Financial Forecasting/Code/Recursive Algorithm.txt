@@ -1,0 +1,9 @@
+Recursion is a programming concept where a method calls itself to solve a smaller version of the same problem. It simplifies problems that have repetitive, self-similar patterns.
+
+
+Time Complexity:
+O(n)
+where n is the number of years. Each call performs a constant-time multiplication operation.
+
+Optimization:
+Although the recursive solution works correctly, it can lead to inefficient memory usage and stack overflow for large input values. To avoid excessive computation and improve efficiency, we can optimize the solution by using iterative approach or by using the direct formula.
