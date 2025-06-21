@@ -23,8 +23,3 @@ Average Case: O(log n) – As the list is halved each time.
 Worst Case: O(log n) – Even when the product is not found.
 
 Use case: Ideal for large datasets that are already sorted or can be sorted and indexed efficiently.
-
-Suitability for E-commerce Platform:
-    *In an e-commerce platform, performance and speed are critical due to the high volume of products and frequent user searches.
-    *If the product list is not sorted and is small, a Linear Search may be acceptable because it requires no pre-processing.
-However, for large product catalogs where quick response times are important, Binary Search is far more efficient due to its logarithmic performance.
